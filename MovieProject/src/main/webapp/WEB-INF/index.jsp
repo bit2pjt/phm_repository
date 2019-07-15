@@ -28,8 +28,6 @@
 				<div class="movie-tabs">
 					<div class="tabs">
 						<ul id="moviechart-ul" class="tab-links tabs-mv">
-							<!-- 유진 : 4개의 메뉴를 가운데 정렬 하고싶은데....모르겠다요...우선은 스페이스로 강제로 띄워놓음-->
-							&emsp;&emsp;&emsp;
 							<li class="active"><a href="#total">통합</a></li>
 							<li><a href="#cgv"> CGV</a></li>
 							<li><a href="#lottecinema"> 롯데시네마 </a></li>
