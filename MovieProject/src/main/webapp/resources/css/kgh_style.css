@@ -1,0 +1,383 @@
+
+/**
+* @Class Name : EgovSampleService.java
+* @Description : EgovSampleService Class
+* @Modification Information
+* @
+* @  �닔�젙�씪      �닔�젙�옄              �닔�젙�궡�슜
+* @ ---------   ---------   -------------------------------
+* @ 2019.07.02   源�愿묓씗      �꺆 湲곕뒫�뿉 css 
+*
+* @author BIT 116湲� 2議�
+* @since 2019. 07.01
+* @version 1.0
+* @see
+*
+*  Copyright (C) by bit 2議� All right reserved.
+*/
+
+ul.jq_tab.tab_menu li{
+  vertical-align:top;
+  display:block;
+  float:left;
+  width: 150px;
+  height: 40px;
+  line-height: 40px;
+  text-align: center;
+  background-color: #333;
+  color: #fff;
+  
+}
+
+li:hover{background: #ccc;}
+li:active a { text-decoration:none; color: #dd003f; font-weight: bold }
+/*硫붾돱 湲��뵪�깋 蹂�寃�.*/
+ul.jq_tab.tab_menu li.on a{
+  color: red;
+}
+ul.jq_tab.tab_menu li a{
+  color: #fff;
+}
+.jq_tab.tab_menu{
+
+}
+
+
+/**
+* @Class Name : EgovSampleService.java
+* @Description : EgovSampleService Class
+* @Modification Information
+* @
+* @  �닔�젙�씪      �닔�젙�옄              �닔�젙�궡�슜
+* @ ---------   ---------   -------------------------------
+* @ 2019.07.02   源�愿묓씗      �뜑蹂닿린 湲곕뒫 css 
+*
+* @author BIT 116湲� 2議�
+* @since 2019. 07.01
+* @version 1.0
+* @see
+*
+*  Copyright (C) by bit 2議� All right reserved.
+*/
+.js-load {
+    display: none;
+}
+.js-load.active {
+    display: block;
+}
+.is_comp.js-load:after {
+    display: none;
+}
+.btn-wrap, .lists, .main {
+    background-color: #333;
+    line-height: 60px;
+    display: block;
+}
+.btn-wrap a{
+  color: #fff;
+}
+.main {
+    max-width: 1200px;
+    margin: 0 auto;
+}
+.lists {
+    margin-bottom: 5rem;
+}
+.lists li{
+    list-style-type: none;
+    float: left;
+
+}
+.lists__item {
+    /*�룷�뒪�꽣 �굹�삤�뒗嫄�*/
+    
+    width: 240px;
+    height: 400px;
+    padding: 20px;
+    background: #fff;
+}
+
+.btn-wrap {
+    font-weight: bold;
+    text-align: center;
+}
+/**
+* @Class Name : EgovSampleService.java
+* @Description : EgovSampleService Class
+* @Modification Information
+* @
+* @  �닔�젙�씪      �닔�젙�옄              �닔�젙�궡�슜
+* @ ---------   ---------   -------------------------------
+* @ 2019.07.02   源�愿묓씗      3�궗 �씠踰ㅽ듃 �뜑蹂닿린 �븯湲�
+*
+* @author BIT 116湲� 2議�
+* @since 2019. 07.01
+* @version 1.0
+* @see
+*
+*  Copyright (C) by bit 2議� All right reserved.
+*/
+
+
+
+
+
+/**
+* @Class Name : EgovSampleService.java
+* @Description : EgovSampleService Class
+* @Modification Information
+* @
+* @  �닔�젙�씪      �닔�젙�옄              �닔�젙�궡�슜
+* @ ---------   ---------   -------------------------------
+* @ 2019.07.02   源�愿묓씗     �룷�뒪�꽣 float left �쁺�뿭 梨꾩슦湲�
+*
+* @author BIT 116湲� 2議�
+* @since 2019. 07.01
+* @version 1.0
+* @see
+*
+*  Copyright (C) by bit 2議� All right reserved.
+*/
+
+.clear {
+ clear: both;
+}
+.main{
+  overflow: hidden;
+}
+.main:after {
+ content:""; clear:both; display:block; 
+}
+
+
+/**
+* @Class Name : EgovSampleService.java
+* @Description : EgovSampleService Class
+* @Modification Information
+* @
+* @  �닔�젙�씪      �닔�젙�옄              �닔�젙�궡�슜
+* @ ---------   ---------   -------------------------------
+* @ 2019.07.02   源�愿묓씗      �꺆 �겢由��떆 �깋蹂�寃�
+*
+* @author BIT 116湲� 2議�
+* @since 2019. 07.01
+* @version 1.0
+* @see
+*
+*  Copyright (C) by bit 2議� All right reserved.
+*/
+
+.jq_tabonoff ul > li > a {
+  color: #fff;
+  text-decoration: none;
+  display: block;
+  padding: 5px 10px;
+  background-color: #333;
+ }
+ .jq_tabonoff ul > li:hover > a,
+ .jq_tabonoff ul > li:focus > a,
+ .jq_tabonoff ul > li:active > a,
+ .jq_tabonoff ul > li.active >a {
+  color: red;
+  background-color: black;
+ }
+
+
+@media(max-width: 1200px){
+  .jq_tab li .tit{
+    vertical-align:top;
+    display:block;
+    width: 100px;
+    line-height: 40px;
+    text-align: center;
+    background-color: #000;
+    color: #fff;
+  }
+  ul.jq_tab.tab_menu li{
+    width: 100px;
+    background-color: #fff;
+    
+  }
+  
+  
+
+}
+/*-------------------CinemaList �뒪���씪------------------------*/
+/**
+* @Class Name : EgovSampleService.java
+* @Description : EgovSampleService Class
+* @Modification Information
+* @
+* @  �닔�젙�씪      �닔�젙�옄              �닔�젙�궡�슜
+* @ ---------   ---------   -------------------------------
+* @ 2019.07.02   源�愿묓씗      CinemaList.jsp style
+*
+* @author BIT 116湲� 2議�
+* @since 2019. 07.01
+* @version 1.0
+* @see
+*
+*  Copyright (C) by bit 2議� All right reserved.
+*/
+.section {
+  width: 1200px;
+  margin: 0 auto;
+}
+@media(max-width: 1200px){
+  .section{
+    width: 100%;
+  }
+}
+
+.cinema_select select{
+  width: 24%;
+  height: 200px;
+  display: inline-block;
+  vertical-align: top;
+  border-style: none
+}
+.cinema_info {
+  margin-bottom: 40px;
+}
+.cinema_info div{
+  
+
+}
+.cinema_info div.cinema_info_text{
+  width: 60%;
+  height: 160px;
+  display: inline-block;
+  
+  
+  
+}
+.cinema_info div.cinema_info_map{
+  width: 38%;
+  height: 160px;
+  display: inline-block;
+  vertical-align: top; 
+  background-color: #cfc;
+}
+
+.cinema_ticket_info{
+  margin-top: 70px;
+  float: right;
+}
+@media(max-width: 1200px){
+  .cinema_select select{
+  width: 100%;
+  height: 200px;
+  display: block;
+  border-style: none
+}
+.cinema_ticket_info{
+  margin-top: 20px;
+  float: right;
+}
+}
+/**
+* @Class Name : EgovSampleService.java
+* @Description : EgovSampleService Class
+* @Modification Information
+* @
+* @  �닔�젙�씪      �닔�젙�옄              �닔�젙�궡�슜
+* @ ---------   ---------   -------------------------------
+* @ 2019.07.02   源�愿묓씗      CinemaList 洹뱀옣�젙蹂� �꺆
+*
+* @author BIT 116湲� 2議�
+* @since 2019. 07.01
+* @version 1.0
+* @see
+*
+*  Copyright (C) by bit 2議� All right reserved.
+*/
+
+ .tab-wrap * { 
+    margin: 0px; 
+    padding: 0px; 
+}
+.tab-wrap { 
+    position: relative; 
+    padding-top: 30px; 
+}
+.tab-wrap li { 
+    z-index: 2; 
+    position: absolute; 
+    top: 0px; 
+    width: 140px; 
+    height: 30px; 
+    text-indent: -9999%; 
+}
+.tab-wrap li:nth-of-type(1) { 
+    left: 0px; 
+}
+.tab-wrap li:nth-of-type(2) { 
+    left: 140px; 
+}
+.tab-wrap li a { 
+    display: block; 
+    width: 100%; 
+    height: 100%; 
+}
+.tab-wrap article h1 { 
+    position: absolute; 
+    top: 0px; 
+    width: 140px; 
+    height: 30px; 
+    line-height: 30px; 
+    box-sizing: border-box; 
+    border: 1px solid #ddd; 
+    text-align: center; 
+    font-size: 12px; 
+}
+.tab-wrap article p { 
+    border: 1px solid #ddd; 
+    
+}
+.tab-wrap article:target h1 { 
+    background-color: #333;
+    color: #fff; 
+}
+.tab-wrap article:nth-of-type(1) h1 { 
+    left: 0px; 
+}
+.tab-wrap article:nth-of-type(2) h1 { 
+    left: 140px; 
+}
+.tab-wrap article p { 
+    display: none; 
+}
+.tab-wrap article:target p { 
+    display: block; 
+}
+
+
+
+
+
+
+/*-------------manageReviewGet.html--------------------*/
+/**
+* @Class Name : EgovSampleService.java
+* @Description : EgovSampleService Class
+* @Modification Information
+* @
+* @  �닔�젙�씪      �닔�젙�옄              �닔�젙�궡�슜
+* @ ---------   ---------   -------------------------------
+* @ 2019.07.08   源�愿묓씗      @media 泥섎━
+*
+* @author BIT 116湲� 2議�
+* @since 2019. 07.01
+* @version 1.0
+* @see
+*
+*  Copyright (C) by bit 2議� All right reserved.
+*/
+
+@media(max-width: 1200px){
+  .admin_review_button div{
+    width: 100%;
+    position: relative;
+    left: 0%;
+  }
+}
