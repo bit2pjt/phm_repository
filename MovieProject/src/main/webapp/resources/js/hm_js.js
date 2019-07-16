@@ -33,6 +33,7 @@ signupLink.on('click', function (event) {
 	event.preventDefault();
 	signupct.parents(overlay).addClass("openform");
 	$(document).on('click', function (e) {
+		console.log("signup");
 		var target = $(e.target);
 		if ($(target).hasClass("overlay")) {
 			$(target).find(signupct).each(function () {
@@ -225,21 +226,20 @@ termsLink.on('click', function (event) { // link 변경
 // });
 // modal 끝
 
-$('.terms-content-bt').on('click', function (event) { // link 변경
-	event.preventDefault();
-	termsct.parents(overlay).addClass("openform"); // ct 변경
-	$('.terms-content').on('click', function (e) {
-		var target = $(e.target);
-		if ($(target).hasClass("overlay")) {
-			$(target).find(termsct).each(function () { // ct 변경
-				$(this).removeClass("openform");
-			});
-			setTimeout(function () {
-				$(target).removeClass("openform");
-			}, 350);
-		}
-	});
-});
+//$('.terms-content-bt').on('click', function (event) { // link 변경
+//	event.preventDefault();
+//	$('.terms-content').on('click', function (e) {
+//		var target = $(e.target);
+//		if ($(target).hasClass("overlay2")) {
+//			$(target).find(termsct).each(function () { // ct 변경
+//				$(this).removeClass("openform2");
+//			});
+//			setTimeout(function () {
+//				$(target).removeClass("openform2");
+//			}, 350);
+//		}
+//	});
+//});
 
 
 
@@ -270,9 +270,9 @@ var overlay2 = $(".overlay2");
 loginWrap2.each(function () {
 	$(this).wrap('<div class="overlay2"></div>');
 });
-
+s
 
 $('.terms-content-bt').click(function () {
+	console.log("dd");
 	$('.overlay2').modal("hide");
-	
 });

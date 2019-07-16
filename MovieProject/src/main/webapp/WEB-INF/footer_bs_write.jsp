@@ -43,7 +43,7 @@
 			</div>
 			
 			<div class="flex-child-ft item3">
-				<a href="one_regist.html"><h4>1:1 문의</h4></a>
+				<h4><a href="one_regist.html">1:1 문의</a></h4>
 			</div>
 
 			<div class="flex-child-ft item4">

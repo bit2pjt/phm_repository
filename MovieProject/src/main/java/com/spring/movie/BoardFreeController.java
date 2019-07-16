@@ -9,7 +9,7 @@ import org.springframework.web.bind.annotation.RequestMapping;
 
 public class BoardFreeController {
 	
-	// 1. ´Ü¼øÇÑ È­¸éÀÇ ¹ÝÈ¯À» ´ã´çÇÏ´Â void È£Ãâ
+	// 1. ï¿½Ü¼ï¿½ï¿½ï¿½ È­ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½È¯ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½Ï´ï¿½ void È£ï¿½ï¿½
 	@GetMapping("boardFreeList.do")
 	public void getListPage() {}
 	@GetMapping("boardFreeGet.do")
@@ -20,7 +20,6 @@ public class BoardFreeController {
 	public void getUpdatePage() {}
 	@GetMapping("boardFreeList_test.do")
 	public void getList_testPage() {}
-	
 	
 	
 }//e_BoardFreeController class

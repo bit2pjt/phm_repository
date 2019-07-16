@@ -14,18 +14,17 @@
 			</div>
 
 			<div class="flex-child-ft item2">
-				<a href="faq_list.html">
-					<h4>고객센터</h4>
-				</a>
-			</div>
-			<a class="termsLink">
-				<h4>약관보기</h4>
+				<h4>
+					<a href="faq_list.html"> 고객센터 </a>
 				</h4>
-			</a>
+			</div>
+			<h4>
+				<a class="termsLink"> 약관보기 </a>
+			</h4>
 			<div class="flex-child-ft item3">
-				<a href="one_regist.do">
-					<h4>1:1 문의</h4>
-				</a>
+				<h4>
+					<a href="one_regist.do"> 1:1 문의 </a>
+				</h4>
 			</div>
 
 			<div class="flex-child-ft item4"></div>
@@ -41,14 +40,11 @@
 				</p>
 			</div>
 		</div>
+	</div>
 </footer>
 <!--   hm |  end of footer section-->
-
-
 </body>
-
-
-
+  
 <script src="<c:url value="/resources/js/jquery.js" />"></script>
 <script src="<c:url value="/resources/js/plugins.js" />"></script>
 <script src="<c:url value="/resources/js/plugins2.js" />"></script>

@@ -350,27 +350,28 @@
 				</div>
 
 				<div class="row">
+
 					<label for="terms-2"> 약관동의 : </br> <label
 						class="fancy-checkbox custom-bgcolor-coral"> <input
 							type="checkbox" checked><span>[필수]이용약관</span>
-					</label> <a class="termsLink">약관보기</a> <input type="checkbox" checked><span>[필수]개인정보
-							수집 및 이용</span></label> <a class="termsLink">약관보기</a> <label
+					</label> <a class="termsLink">약관보기</a> <label
 						class="fancy-checkbox custom-bgcolor-coral"> <input
-						type="checkbox" checked><span>이메일 수신 동의</span></label> <label
+							type="checkbox" checked><span>[필수]개인정보 수집 및 이용</span>
+					</label> <a class="termsLink">약관보기</a> <label
 						class="fancy-checkbox custom-bgcolor-coral"> <input
-						type="checkbox" checked><span>SMS 수신 동의</span></label> </label>
-					<hr>
-					<label class="fancy-checkbox custom-bgcolor-coral" id="checkall">
+							type="checkbox" checked><span>이메일 수신 동의</span></label> <label
+						class="fancy-checkbox custom-bgcolor-coral"> <input
+							type="checkbox" checked><span>SMS 수신 동의</span></label>
+					</label>
+					<label class="fancy-checkbox custom-bgcolor-coral" id="checkall" st>
 						<input type="checkbox" checked=""><span>전체동의</span>
 					</label>
-
+					<hr>
 				</div>
-
 
 				<div class="row">
 					<button class="signupokLink" type="submit">가입하기</button>
 				</div>
-
 			</form>
 		</div>
 	</div>

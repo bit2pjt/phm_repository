@@ -6,6 +6,7 @@
 * @  수정일      수정자              수정내용
 * @ ---------   ---------   -------------------------------
 * @ 2019.07.03   박현민       최초생성
+* @ 2019.07.15   박현민 	index 리스트 수정
 *
 * @author bit 2조
 * @since 2019. 07.01
@@ -287,6 +288,7 @@ input::-webkit-input-placeholder {
 
 /* 리스트 */
 #lr-list{
+	    list-style: none;
   width:870px;
   margin: auto;
 }
@@ -318,7 +320,6 @@ input::-webkit-input-placeholder {
     margin-top: 30px;
   }
 }
-
 
 
 /* 약관 */
@@ -430,3 +431,5 @@ input::-webkit-input-placeholder {
 }
 
 /* 약관 오버레이 끝 */
+
+
