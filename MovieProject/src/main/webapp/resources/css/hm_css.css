@@ -319,6 +319,10 @@ input::-webkit-input-placeholder {
     width:400px;
     margin-top: 30px;
   }
+   #demo-2 {
+   display: none;
+  }
+  
 }
 
 

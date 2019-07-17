@@ -698,9 +698,16 @@
 						<li class="dropdown first"><a
 							class="btn btn-default dropdown-toggle lv1" href="cinemaList.do">
 								영화관 </a></li>
+								
 						<li class="dropdown first"><a
 							class="btn btn-default dropdown-toggle lv1"
-							href="boardEventCollection.do"> 이벤트 & 정보 </a></li>
+							data-toggle="dropdown" data-hover="dropdown"> 이벤트 & 정보<i
+								class="fa fa-angle-down" aria-hidden="true"></i>
+						</a>
+							<ul class="dropdown-menu level1">
+								<li><a href="">지난 이벤트</a></li> <!-- hm | 지난이벤트 , 당첨자 확인 링크 필요 -->
+								<li class="it-last"><a href="">당첨자 확인</a></li>
+							</ul></li>
 						<li class="dropdown first"><a
 							class="btn btn-default dropdown-toggle lv1"
 							data-toggle="dropdown" data-hover="dropdown"> 커뮤니티<i
