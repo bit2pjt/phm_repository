@@ -270,7 +270,7 @@ var overlay2 = $(".overlay2");
 loginWrap2.each(function () {
 	$(this).wrap('<div class="overlay2"></div>');
 });
-s
+
 
 $('.terms-content-bt').click(function () {
 	console.log("dd");

@@ -60,6 +60,8 @@
 <!-- yj : css 추가 -->
 <link rel="stylesheet"
 	href="<c:url value="resources/css/modifyplugins.css" />">
+	<link rel="stylesheet"
+	href="<c:url value="resources/css/yj_style.css" />">
 
 </head>
 
@@ -665,7 +667,7 @@
 	<!-- ======================================================================================================================== -->
 
 	<!-- BEGIN | Header -->
-	<header class="ht-header">
+	<header class="ht-header sticky">
 		<div class="container">
 			<nav class="navbar navbar-default navbar-custom">
 				<!-- Brand and toggle get grouped for better mobile display -->
