@@ -43,12 +43,6 @@
 	</div>
 </footer>
 <!--   hm |  end of footer section-->
-</body>
+
   
-<script src="<c:url value="/resources/js/jquery.js" />"></script>
-<script src="<c:url value="/resources/js/plugins.js" />"></script>
-<script src="<c:url value="/resources/js/plugins2.js" />"></script>
-<script src="<c:url value="/resources/js/header_custom.js" />"></script>
-<script src="<c:url value="/resources/js/hm_js.js" />"></script>
-<!--  hm |   js 추가 -->
-</html>
+<button onclick="topFunction()" id="hm_myBtn" title="Go to top">Top</button>
